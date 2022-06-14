@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Hurricane&family=Inspiration&family=Oswald:wght@200;300;400;500&family=Ramaraja&family=Roboto&family=Ubuntu:wght@300&display=swap');
+body{
+    margin: 0;
+}
+.top{
+    height: 90px;
+    background: rgb(255, 255, 255);
+    
+}
+.cupicon{
+    color: rgb(71, 49, 20);
+    padding-left: 60px;
+    padding-top: 8px;
+    float: left;
+}
+.title{
+    color:brown;
+    float:left;
+    padding-left:50px;
+    padding-top: 8px;
+}
+.container {
+    position: relative;
+    font-family: Arial;
+    width:100%;
+    height: 40%;
+  }
+  .text-block {
+    position: absolute;
+    top: 120px;
+    left: 160px;
+    background-color: black;
+    color: rgb(138, 60, 41);
+    padding-left: 10px;
+    padding-right: 20px;
+    font-size:70px;
+    
+  }
+  .row{
+    width: 100%;
+    height: 450px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.col:hover{
+    box-shadow: 10px 10px #362207;
+}
+
+.col{
+    height: 410px;
+    width: 300px;
+    background-color: rgb(116, 87, 44);
+}   
+.type_img{
+    height: 200px;
+    width:300px;
+    border-radius: 20px;
+
+}
+.row_types_head{
+    text-align:center;
+    padding: 15px;
+    padding-bottom:20px ;
+    padding-top: 20px;
+    font-family:'Smokum',cursive;
+}
+.bg2{
+    /* background-image:url(./images/backg2.jpg); */
+    background-color: rgb(177, 154, 120);
+}
+.coffee_title{
+    color: aliceblue;
+    text-align:center;
+    text-shadow:3px 3px rgb(180, 171, 83) ;
+}
+.coffee_content{
+    padding: 10px;
+    color: bisque;
+}
+.gallery{
+    width:260px;
+    height:240px;
+    margin: 35px;
+    box-shadow: 8px 8px #2e2410;
+}
+.gallery_class{
+    background-image: url(./images/woodbg1.jpg);
+    padding-top: 30px;
+    text-align: center;
+    font-family:'Smokum',cursive;
+    color: rgb(235, 224, 224);
+}
+.stickyorder
+{
+    width: 120px;
+    height:143px;
+    top:630px;
+    position: fixed;
+    right:1%;
+    bottom:1%;
+    float:right;
+    
+}
+.stickyorder:hover{
+    box-shadow: 10px 10px black;
+    border: 2px yellow;
+}
+.formclass{
+    width:50%;
+    height:179px;
+    font-size: 20px;
+    margin-left: 700px;
+}
+.footer{
+    height: 100px;
+    width: 100%;
+    background-color: rgb(43, 31, 17);
+    padding-top: 50px;
+    color: aliceblue;
+}
